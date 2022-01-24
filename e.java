@@ -16,10 +16,11 @@ class e
                 System.out.println("it is not prime");
                 break;
             }
+        }   
         if(flag==0)
         {
             System.out.println("It is prime");
         }    
-        }
+        
     } 
 }      
