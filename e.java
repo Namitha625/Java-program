@@ -10,7 +10,7 @@ class e
         int i,flag=0;
         for(i=0;i<x/2;i++)
         {
-            if(x%2==0)
+            if(x%i==0)                                                  //edited this line...it was x%2 earlier
             {
                 flag=1;
                 System.out.println("it is not prime");
